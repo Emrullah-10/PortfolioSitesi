@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMRULLAH DİZMAN - Kişisel Portfolyo</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#home">
+                <div class="logo-container">
+                    <i class="fas fa-code logo-icon"></i>
+                </div>
+                <span class="brand-text">EMRULLAH DİZMAN</span>
+            </a>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">
+                            <i class="fas fa-home nav-icon"></i>
+                            <span>Ana Sayfa</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            <i class="fas fa-user nav-icon"></i>
+                            <span>Hakkımda</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">
+                            <i class="fas fa-briefcase nav-icon"></i>
+                            <span>Projeler</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">
+                            <i class="fas fa-envelope nav-icon"></i>
+                            <span>İletişim</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-8 mx-auto text-center">
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <h1 class="hero-title">EMRULLAH DİZMAN</h1>
+                        <h2 class="hero-subtitle">Ben Kimim?</h2>
+                        <p class="hero-description">
+                            Web geliştirici ve yaratıcı çözümler üreten tutkulu bir yazılım geliştiricisi.
+                            Modern teknolojiler kullanarak kullanıcı dostu ve etkileyici web siteleri tasarlıyorum.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn btn-primary btn-lg me-3">Projelerimi Gör</a>
+                            <a href="#contact" class="btn btn-outline-light btn-lg">İletişime Geç</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title" data-aos="fade-up">Hakkımda</h2>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="about-content">
+                        <h3>Kısa Biyografi</h3>
+                        <p>
+                            Merhaba! Ben Emrullah Dizman. Web geliştirme konusunda tutkulu bir yazılım geliştiricisiyim. 
+                            Modern web teknolojileri kullanarak kullanıcı deneyimini ön planda tutan projeler geliştiriyorum.
+                        </p>
+                        <p>
+                            Sürekli kendimi geliştirmeye odaklanarak, en güncel teknolojileri takip ediyor ve 
+                            projelerimde uyguluyorum. Her proje benim için yeni bir öğrenme fırsatı.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="skills-section">
+                        <h3>Yeteneklerim</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-bootstrap"></i>
+                                <span>Bootstrap</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-react"></i>
+                                <span>React</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-node-js"></i>
+                                <span>Node.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title" data-aos="fade-up">Demo Projelerim</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Kuaför Sitesi">
+                        </div>
+                        <div class="project-content">
+                            <h3>Kuaför Sitesi</h3>
+                            <p>Modern ve şık tasarımlı kuaför salonu web sitesi. Randevu sistemi ve galeri özellikleri.</p>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-primary btn-sm">Demo Gör</a>
+                                <a href="#" class="btn btn-outline-primary btn-sm">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Araç Sitesi">
+                        </div>
+                        <div class="project-content">
+                            <h3>Araç Sitesi</h3>
+                            <p>Araç satış ve kiralama platformu. Filtreleme ve arama özellikleri ile kullanıcı dostu arayüz.</p>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-primary btn-sm">Demo Gör</a>
+                                <a href="#" class="btn btn-outline-primary btn-sm">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Halı Saha Sitesi">
+                        </div>
+                        <div class="project-content">
+                            <h3>Halı Saha Sitesi</h3>
+                            <p>Halı saha rezervasyon sistemi. Online rezervasyon ve ödeme entegrasyonu.</p>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-primary btn-sm">Demo Gör</a>
+                                <a href="#" class="btn btn-outline-primary btn-sm">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Eczane Sitesi">
+                        </div>
+                        <div class="project-content">
+                            <h3>Eczane Sitesi</h3>
+                            <p>Eczane yönetim sistemi. İlaç takibi ve hasta bilgileri yönetimi.</p>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-primary btn-sm">Demo Gör</a>
+                                <a href="#" class="btn btn-outline-primary btn-sm">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title" data-aos="fade-up">İletişim</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="contact-info" data-aos="fade-up">
+                        <div class="contact-card">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt contact-icon"></i>
+                                <div class="contact-details">
+                                    <h4>Çaldıran</h4>
+                                    <p>Van, Türkiye</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone contact-icon"></i>
+                                <div class="contact-details">
+                                    <h4>Telefon</h4>
+                                    <p>+90 5XX XXX XX XX</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope contact-icon"></i>
+                                <div class="contact-details">
+                                    <h4>E-posta</h4>
+                                    <p>emrullahdizman3@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Social Media & Quick Contact -->
+            <div class="row mt-5">
+                <div class="col-lg-12 text-center">
+                    <div class="social-links" data-aos="fade-up">
+                        <h3>Hızlı İletişim</h3>
+                        <div class="social-buttons">
+                            <a href="https://wa.me/905XXXXXXXXX" class="btn btn-success btn-lg me-3" target="_blank">
+                                <i class="fab fa-whatsapp"></i> WhatsApp
+                            </a>
+                            <a href="https://instagram.com/emrullah._10" class="btn btn-danger btn-lg me-3" target="_blank">
+                                <i class="fab fa-instagram"></i> Instagram
+                            </a>
+                            <a href="mailto:emrullahdizman3@gmail.com" class="btn btn-info btn-lg">
+                                <i class="fas fa-envelope"></i> E-posta
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="social-icons">
+                        <a href="https://instagram.com/emrullah._10" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <p class="mt-3 mb-0">&copy; 2024 Emrullah Dizman. Tüm hakları saklıdır.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html> 
